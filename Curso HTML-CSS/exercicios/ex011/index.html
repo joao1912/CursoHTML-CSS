@@ -15,5 +15,13 @@
         <source media="(max-width: 1100px)" srcset="imagens/foto-m.png" type="image/png">
         <img src="imagens/foto-g.png" alt="Imagem flexivel">
     </picture>
+    <h1>Reprodizindo audio</h1>
+    <p>Vamos ver como reprosuzir um audio em HTML5.</p>
+    <!--maneira simples -> <audio> src= "nome do arquivo" controls autoplay(esses dois tem que colocar manualmente) </audio>-->
+    <audio preload="metadata" controls >
+        <source src="midea/musica-ambiente.mp3" type="audio/mpeg">
+        <p>Infelizmente seu dispositivo não é compativel com o arquivo MP3, <a href="midea/musica-ambiente.mp3">acesse esse link para baixar o arquivo.</a></p>
+    </audio>
+        <audio src=""></audio>
 </body>
 </html>
