@@ -7,7 +7,7 @@
     <title>fentes CSS</title>
     <style>
         body {
-            font-family:sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
             /*
             Medidas Absolutas: cm, mm, in(polegada), px, pt, pc(paica)
             
@@ -19,9 +19,18 @@
 
             16px = 1em
             */
-            font-size: 1em ;  
+            font: normal 16px Arial, sans-serif;
+
+            /*use só 'font' assim: font: normal 16px Arial, sans-serif */
+        }
+
+        h1 {
+            font: italic bolder 3em Arial, sans-serif; /*Propriedade shortHand*/
         }
         
+        h2 {
+            font: bold 2em Arial, sans-serif;
+        }
     </style>
 </head>
 <body>
