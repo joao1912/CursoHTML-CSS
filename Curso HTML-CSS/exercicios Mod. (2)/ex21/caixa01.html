@@ -7,26 +7,64 @@
     <title>Modelo de Caixas</title>
     <style>
         h1 {
+
             background-color: lightgray;
             height: 300px;
             width: 300px;
-            border-width: 10px;
-            border-style: solid;
-            border-color: blueviolet;
-            padding-top: 10px;
-            padding-right: 10px;
-            padding-left: 10px;
-            padding-bottom: 10px;
+
+            border: 10px solid blueviolet; /*shortHand*/
+            /*
+                border-width: 10px;
+                border-style: solid;
+                border-color: blueviolet;
+            */
+
+
+
+
+            
+
+            padding: 10px 10px 10px 10px; /*shortHand (ordem do relogio)*/
+            /*
+                padding-top: 10px;
+                padding-right: 10px;
+                padding-left: 10px;
+                padding-bottom: 10px;
+            */   
+            /*se todos os lados forem iguais entao digite apenas o primeiro valor.*/
+
+            /*EX: padding: 10px; */
+
+
+            /*margin: auto;*/
+            /*Centraliza a caixa*/
+
+            margin: 20px auto 40px auto; /*shortHand (ordem do relogio)*/
+
+
+            outline: 5px dashed red; /*shortHand*/
+            /*
+                outline-width: 5px;
+                outline-style: dashed;
+                outline-color: red;
+            */
+
+
+
+            
         }
         a {
             border-width: 10px;
             border-style: solid;
             border-color: red;
         }
+        div#teste {
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <h1>exemplo de caixa box-level</h1>
-    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+    <div id ="teste"><p>Parágrafos tabém são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level.</a> Vamos ver como tudo isso funciona</p></div>
 </body>
-</html>-
+</html>
