@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@font-face {
+    font-family: techfont;
+    src: url(fonts/idroid.otf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #8ff6bd;
+    margin: 8px;
+
+}
+
+p {
+    text-indent: 15px;
+    padding: 15px;
+}
+
+header {
+    background-image: linear-gradient(to top , #0f4226 , #2ED177);
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    box-shadow: 2px 2px 3px rgba(59, 58, 58, 0.632);
+    min-height: 150px
+}
+
+header > h1 {
+    text-shadow: 1px 1px 1px rgba(59, 58, 58, 0.593);
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > p {
+    color: #50d88d;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+nav {
+    padding: 10px;
+    background-color: #084522;
+}
+nav > a {
+    text-decoration: none;
+    text-align: left;
+    color: #24a05c;
+    font-weight: bold;
+    padding: 11px;
+    
+}
+
+
+nav > a:hover {
+    color: #29ad65;
+    background-color: #1d834bc8;
+    border-radius: 6px;
+    
+}
+
+section {
+    background-color: white;
+    margin: auto;
+    box-shadow: 1px 1px 2px rgba(59, 58, 58, 0.505);
+    padding: 10px;
+    
+}
+
+
+article > h1 {
+    font-family: techfont;
+    color: #146c3d;
+    font-size: 1.5em;
+    background-color: #29ad6472;
+}
+article > h2 {
+    color: #186B3D;
+    font-family: techfont;
+    font-size: 1.2em;
+    background-color: #29ad6472;
+}
+
+article > p {
+    text-indent: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+
+p > a {
+    font-weight: bold;
+    color: #135d34;
+    text-decoration: none;
+    background-color: #2ed1776a;
+    padding: 2px;
+}
+
+img#fotodroid {
+    margin: auto;
+}
+
+div#video {
+    background-color: rgba(79, 76, 76, 0.91);
+    padding: 20px;
+    
+}
+
+section#lista {
+    background-color: #31d77c;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+section#lista > h3 {
+    background-color: #084522;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+    
+ul {
+    margin: 10px;
+}
+
+li {
+    padding: 1px;
+}
+
+a#droid:hover {
+    text-decoration: underline;
+}
+
+section#conteudoFinal {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
