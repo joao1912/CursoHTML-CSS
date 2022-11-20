@@ -51,14 +51,17 @@ nav > a {
     color: #24a05c;
     font-weight: bold;
     padding: 11px;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
 
 nav > a:hover {
-    color: #29ad65;
+    color: #084522;
     background-color: #1d834bc8;
     border-radius: 6px;
+    transition: 0.2s all linear;
+
     
 }
 
