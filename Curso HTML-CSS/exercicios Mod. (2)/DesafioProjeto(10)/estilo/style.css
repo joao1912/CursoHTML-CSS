@@ -2,8 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face {
     font-family: techfont;
-    src: url(../fonts/idroid.otf);
+    src: url(../fonts/idroid.otf) format('opentype');
 }
+
+/*Use :root {}* para por as variaveis dentro dela/
+
+/*variavel em css use: --''nome da var'': ''o que ela recebe*/
+
+/*EX: --cor0: #8ff6bd;*/ /*USE ASSIM*/
+
+/*EX2: --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;*/
+
 * {
     margin: 0px;
     padding: 0px;
@@ -11,14 +20,9 @@
 
 body {
     background-color: #8ff6bd;
-    margin: 8px;
 
 }
 
-p {
-    text-indent: 15px;
-    padding: 15px;
-}
 
 header {
     background-image: linear-gradient(to top , #0f4226 , #2ED177);
@@ -68,12 +72,21 @@ nav > a:hover {
     
 }
 
+main {
+    background-color: white;
+}
+
 section {
     background-color: white;
     margin: auto;
     box-shadow: 1px 1px 2px rgba(59, 58, 58, 0.505);
     padding: 10px;
     
+}
+
+p {
+    text-indent: 15px;
+    padding: 15px;
 }
 
 aside {
@@ -152,5 +165,10 @@ li {
 
 a#droid:hover {
     text-decoration: underline;
+}
+
+footer {
+    background-color: #084522;
+    color: white;
 }
 
