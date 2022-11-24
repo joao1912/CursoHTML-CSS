@@ -94,8 +94,8 @@ main img {
 }
 
 main img.pequena {
+    max-width: 350px;
     display: block;
-    width: 50%;
     margin: auto;
 }
 
@@ -107,9 +107,9 @@ section {
     
 }
 
-p {
-    text-indent: 15px;
-    padding: 15px;
+main p {
+    text-indent: 30px;
+    line-height: 2em ;
 }
 
 aside {
@@ -120,21 +120,27 @@ aside {
     
 }
 
+aside p {
+    line-height: 2em ;
+    padding: 10px;
+}
+
 aside#lista {
     background-color: #31d77c;
-    margin: 10px;
     border-radius: 10px;
 }
 
 aside > ul {
-    padding: 10px;
+    list-style-type: '\2714';
+    list-style-position: inside;
+    columns: 2;
 }
 
 aside#lista > h3 {
     background-color: #084522;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 5px;
+    padding: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -155,13 +161,17 @@ article > h2 {
     color: #186B3D;
     font-family: techfont;
     font-size: 1.2em;
-    background-color: #29ad6472;
+    background-image: linear-gradient(to right, #83e1ad , transparent);
+    text-indent: 8px;
+    font-weight: normal;
 }
 
 article > p {
-    text-indent: 15px;
+    text-indent: 30px;
     text-align: justify;
     padding: 10px;
+    font-size: 1em;
+    line-height: 2em;
 }
 
 p > a {
@@ -169,7 +179,12 @@ p > a {
     color: #135d34;
     text-decoration: none;
     background-color: #2ed1776a;
-    padding: 2px;
+    padding: 2px 6px;
+}
+
+p a:hover {
+    text-decoration: underline;
+    color: #1a8249;
 }
 
 img#fotodroid {
@@ -178,8 +193,18 @@ img#fotodroid {
 
 div#video {
     background-color: rgba(79, 76, 76, 0.91);
+    margin: 0px -20px 30px -20px;
     padding: 20px;
-    
+    padding-bottom: 56.5%;
+    position: relative;
+}
+
+div#video iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
 }
    
 ul {
