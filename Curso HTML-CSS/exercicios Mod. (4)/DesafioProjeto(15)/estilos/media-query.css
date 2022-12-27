@@ -32,6 +32,16 @@
     }
 }
 
+form > input[type=submit] {
+    width: 90%;
+    margin: auto;
+}
+
+form  a.botao {
+    width: 90%;
+}
+
+
 @media screen and (min-width: 992px) {
     body {
         background-image: linear-gradient(#49a09d,#5f2f82);
