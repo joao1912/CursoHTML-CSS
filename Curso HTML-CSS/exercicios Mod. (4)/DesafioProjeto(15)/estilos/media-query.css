@@ -8,6 +8,7 @@
     }
     section#login {
         width: 80vw;
+        height: 400px;
 
     }
 
@@ -29,16 +30,24 @@
 
     div#formulario > p {
         font-size: 1.2em;
+        margin-bottom: 30px;
     }
-}
 
-form > input[type=submit] {
-    width: 90%;
-    margin: auto;
-}
+    form > input[type=submit] {
+        width: 90%;
+        margin: auto;
+    }
+    
+    form  a.botao {
+        width: 90%;
+    }
 
-form  a.botao {
-    width: 90%;
+    div.campo {
+        width: 90%;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
 }
 
 
@@ -50,6 +59,7 @@ form  a.botao {
 
     section#login {
         width: 950px;
+        height: 400px;
     }
 
     section#login > div#imagem {
@@ -69,5 +79,6 @@ form  a.botao {
 
     div#formulario > p {
         font-size: 1.3em;
+        margin-bottom: 20px;
     }
 }
